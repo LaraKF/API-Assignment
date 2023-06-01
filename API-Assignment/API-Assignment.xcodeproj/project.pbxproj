@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F4E15BF2A24FAED00504FDD /* API_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15BE2A24FAED00504FDD /* API_AssignmentApp.swift */; };
+		4F4E15C12A24FAED00504FDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15C02A24FAED00504FDD /* ContentView.swift */; };
+		4F4E15C32A24FAEF00504FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4E15C22A24FAEF00504FDD /* Assets.xcassets */; };
+		4F4E15C62A24FAEF00504FDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4E15C52A24FAEF00504FDD /* Preview Assets.xcassets */; };
+		4F4E15CE2A24FD5300504FDD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15CD2A24FD5300504FDD /* Model.swift */; };
+		4F4E15D12A24FD8400504FDD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15D02A24FD8400504FDD /* ViewModel.swift */; };
+		4F4E15D52A25009E00504FDD /* TheEarthScienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15D42A25009E00504FDD /* TheEarthScienceView.swift */; };
+		4F4E15D72A2500BC00504FDD /* TheEarthScienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15D62A2500BC00504FDD /* TheEarthScienceViewModel.swift */; };
+		4F4E15D92A2500CA00504FDD /* TheEarthScienceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E15D82A2500CA00504FDD /* TheEarthScienceModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F4E15BB2A24FAED00504FDD /* API-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4E15BE2A24FAED00504FDD /* API_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_AssignmentApp.swift; sourceTree = "<group>"; };
+		4F4E15C02A24FAED00504FDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F4E15C22A24FAEF00504FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F4E15C52A24FAEF00504FDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F4E15CD2A24FD5300504FDD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4F4E15D02A24FD8400504FDD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4F4E15D42A25009E00504FDD /* TheEarthScienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEarthScienceView.swift; sourceTree = "<group>"; };
+		4F4E15D62A2500BC00504FDD /* TheEarthScienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEarthScienceViewModel.swift; sourceTree = "<group>"; };
+		4F4E15D82A2500CA00504FDD /* TheEarthScienceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEarthScienceModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F4E15B82A24FAED00504FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4E15B22A24FAED00504FDD = {
+			isa = PBXGroup;
+			children = (
+				4F4E15BD2A24FAED00504FDD /* API-Assignment */,
+				4F4E15BC2A24FAED00504FDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F4E15BC2A24FAED00504FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4E15BB2A24FAED00504FDD /* API-Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F4E15BD2A24FAED00504FDD /* API-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				4F4E15D32A24FDBA00504FDD /* View */,
+				4F4E15CF2A24FD6000504FDD /* ViewModel */,
+				4F4E15CC2A24FD3200504FDD /* Model */,
+				4F4E15C22A24FAEF00504FDD /* Assets.xcassets */,
+				4F4E15C42A24FAEF00504FDD /* Preview Content */,
+			);
+			path = "API-Assignment";
+			sourceTree = "<group>";
+		};
+		4F4E15C42A24FAEF00504FDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F4E15C52A24FAEF00504FDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F4E15CC2A24FD3200504FDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F4E15CD2A24FD5300504FDD /* Model.swift */,
+				4F4E15D82A2500CA00504FDD /* TheEarthScienceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F4E15CF2A24FD6000504FDD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F4E15D02A24FD8400504FDD /* ViewModel.swift */,
+				4F4E15D62A2500BC00504FDD /* TheEarthScienceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4F4E15D32A24FDBA00504FDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F4E15BE2A24FAED00504FDD /* API_AssignmentApp.swift */,
+				4F4E15C02A24FAED00504FDD /* ContentView.swift */,
+				4F4E15D42A25009E00504FDD /* TheEarthScienceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F4E15BA2A24FAED00504FDD /* API-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4E15C92A24FAEF00504FDD /* Build configuration list for PBXNativeTarget "API-Assignment" */;
+			buildPhases = (
+				4F4E15B72A24FAED00504FDD /* Sources */,
+				4F4E15B82A24FAED00504FDD /* Frameworks */,
+				4F4E15B92A24FAED00504FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "API-Assignment";
+			productName = "API-Assignment";
+			productReference = 4F4E15BB2A24FAED00504FDD /* API-Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F4E15B32A24FAED00504FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F4E15BA2A24FAED00504FDD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F4E15B62A24FAED00504FDD /* Build configuration list for PBXProject "API-Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F4E15B22A24FAED00504FDD;
+			productRefGroup = 4F4E15BC2A24FAED00504FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4E15BA2A24FAED00504FDD /* API-Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F4E15B92A24FAED00504FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4E15C62A24FAEF00504FDD /* Preview Assets.xcassets in Resources */,
+				4F4E15C32A24FAEF00504FDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F4E15B72A24FAED00504FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4E15D52A25009E00504FDD /* TheEarthScienceView.swift in Sources */,
+				4F4E15CE2A24FD5300504FDD /* Model.swift in Sources */,
+				4F4E15C12A24FAED00504FDD /* ContentView.swift in Sources */,
+				4F4E15D92A2500CA00504FDD /* TheEarthScienceModel.swift in Sources */,
+				4F4E15D12A24FD8400504FDD /* ViewModel.swift in Sources */,
+				4F4E15D72A2500BC00504FDD /* TheEarthScienceViewModel.swift in Sources */,
+				4F4E15BF2A24FAED00504FDD /* API_AssignmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F4E15C72A24FAEF00504FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F4E15C82A24FAEF00504FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4E15CA2A24FAEF00504FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"API-Assignment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorgainzation.API-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F4E15CB2A24FAEF00504FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"API-Assignment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myorgainzation.API-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F4E15B62A24FAED00504FDD /* Build configuration list for PBXProject "API-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4E15C72A24FAEF00504FDD /* Debug */,
+				4F4E15C82A24FAEF00504FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4E15C92A24FAEF00504FDD /* Build configuration list for PBXNativeTarget "API-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4E15CA2A24FAEF00504FDD /* Debug */,
+				4F4E15CB2A24FAEF00504FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F4E15B32A24FAED00504FDD /* Project object */;
+}
